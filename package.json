@@ -1,0 +1,23 @@
+{
+  "name": "claude-agent-routing-segment",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs --video",
+    "stills": "node render.mjs",
+    "studio": "remotion studio src/index.tsx --no-open"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.484",
+    "@remotion/cli": "4.0.484",
+    "@remotion/renderer": "4.0.484",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "remotion": "4.0.484"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.17",
+    "typescript": "6.0.3"
+  }
+}
